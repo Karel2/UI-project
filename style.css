@@ -25,7 +25,8 @@ a.navbar-brand { /* Event brite */
 }
 
 
-img { /* Logo */
+
+.img-logo {  /* Logo */
    width: 70px;
    height:70px; 
 }
@@ -234,4 +235,41 @@ img { /* Logo */
 .profile{
     align-items: center;
     padding: auto;
+}
+
+/* PREZ ELEMENTS */
+
+.line-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.line-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+
+}
+
+.img-line-1 {
+  height: 110%; 
+  width: 110%;
+  
+}
+
+.img-line-2 {
+  height: 110%; 
+  width: 110%;
+  
+}
+
+.text-1 {
+  margin-left: 7em;
+}
+
+.text-2 {
+  margin-right: 7em;
 }
